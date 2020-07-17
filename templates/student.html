@@ -1,0 +1,28 @@
+<html>
+   <body>
+   <h2>News Summarization</h2>
+   <p>Enter the article to be summarized and press submit.</p>
+
+      <form action = "http://localhost:5000/result" method = "POST">
+		 <textarea id="myTextarea" rows="10" cols="80" placeholder="Enter news here" name = "news entered"></textarea>
+         <br><br>
+		 <label for="sizes" >Choose a size:</label>
+
+<select name="size" id="sizes">
+  <option value="25">25</option>
+  <option value="40">40</option>
+  <option value="50">60</option>
+  <option value="70">80</option>
+</select>
+
+		 <label for="models" >Choose a model:</label>
+
+<select name="model" id="models">
+  <option value="T5">T5</option>
+  <option value="bart">BART</option>
+</select>
+
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+   </body>
+</html>
