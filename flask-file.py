@@ -12,7 +12,7 @@ import pprint
 import time
 
 summarizer_bart = pipeline("summarization")
-summarizer_t5 = pipeline("summarization", model="t5-large")
+summarizer_t5 = pipeline("summarization", model="t5-base")
 
 class models:
    
