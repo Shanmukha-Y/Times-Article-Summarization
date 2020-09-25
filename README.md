@@ -3,6 +3,10 @@
 # Description
 A simple flask app that takes in a news article, size and model as input and outputs the summary with the required size from the selected model.
 
+- TIME_Seq2Seq2.ipynb is the from scratch implementation of the sequence 2 sequence algorithm to generate summaries on the Times Data.
+- transormers_summarization.ipynb is the Transfer learning approach, where we trained the T5 model's last layer on the Times data.
+- Flask file.py consists of the pretrained models of T5 and BART along with a simple web UI
+
 # Installation:
 - Install python 3.6 with pip and add python to path when prompted
 - To check pip installation type "pip" in command prompt, this would list all the commands compatible with pip.
