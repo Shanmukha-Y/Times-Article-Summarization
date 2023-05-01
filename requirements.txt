@@ -1,4 +1,4 @@
-flask==1.1.1
+flask==2.3.2
 transformers==3.0.2
 gunicorn==20.0.4
 tensorflow==2.2.1
